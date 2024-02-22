@@ -5,7 +5,7 @@ interface FabricaDeAvioes {
     Aviao produzirAviaoCarga();
 }
 
-// Implementação aviões Boeing
+//  aviões Boeing
 class FabricaBoeing implements FabricaDeAvioes {
     @Override
     public Aviao produzirAviaoComercial() {
@@ -18,7 +18,7 @@ class FabricaBoeing implements FabricaDeAvioes {
     }
 }
 
-// Implementação aviões Airbus
+//  aviões Airbus
 class FabricaAirbus implements FabricaDeAvioes {
     @Override
     public Aviao produzirAviaoComercial() {
@@ -31,7 +31,7 @@ class FabricaAirbus implements FabricaDeAvioes {
     }
 }
 
-// Implementação aviões Embraer 
+//  aviões Embraer 
 class FabricaEmbraer implements FabricaDeAvioes { // Adicionando 
     @Override
     public Aviao produzirAviaoComercial() {

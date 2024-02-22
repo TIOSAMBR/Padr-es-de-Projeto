@@ -4,7 +4,7 @@ interface Carro {
     void montar();
 }
 
-// Implementação modelo Sedan
+//  modelo Sedan
 class Sedan implements Carro {
     @Override
     public void montar() {
@@ -12,7 +12,7 @@ class Sedan implements Carro {
     }
 }
 
-// Implementação modelo SUV
+//  modelo SUV
 class SUV implements Carro {
     @Override
     public void montar() {
@@ -27,7 +27,7 @@ class Hatchback implements Carro {
     }
 }
 
-// Implementação modelo Pickup
+//  modelo Pickup
 class Pickup implements Carro { // Adicionando 
     @Override
     public void montar() {

@@ -7,7 +7,7 @@ interface FabricaDeCarros {
     Carro produzirPickup();    // Adicionando 
 }
 
-// Implementação carros da Ford
+// carros da Ford
 class FabricaFord implements FabricaDeCarros {
     @Override
     public Carro produzirSedan() {
@@ -30,7 +30,7 @@ class FabricaFord implements FabricaDeCarros {
     }
 }
 
-// Implementação carros da Toyota
+// carros da Toyota
 class FabricaToyota implements FabricaDeCarros {
     @Override
     public Carro produzirSedan() {

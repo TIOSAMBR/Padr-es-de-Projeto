@@ -4,7 +4,7 @@ interface Aviao {
     void montar();
 }
 
-// Implementação Avião Comercial
+//  Avião Comercial
 class AviaoComercial implements Aviao {
     @Override
     public void montar() {
@@ -12,7 +12,7 @@ class AviaoComercial implements Aviao {
     }
 }
 
-// Implementação Avião de Carga
+//  Avião de Carga
 class AviaoCarga implements Aviao {
     @Override
     public void montar() {
@@ -20,7 +20,7 @@ class AviaoCarga implements Aviao {
     }
 }
 
-// Implementação Avião Executivo
+//  Avião Executivo
 class AviaoExecutivo implements Aviao {
     @Override
     public void montar() {
@@ -28,7 +28,7 @@ class AviaoExecutivo implements Aviao {
     }
 }
 
-// Implementação Avião Militar
+//  Avião Militar
 class AviaoMilitar implements Aviao { // Adicionando 
     @Override
     public void montar() {

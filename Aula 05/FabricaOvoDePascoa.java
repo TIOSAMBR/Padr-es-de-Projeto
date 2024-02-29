@@ -1,0 +1,3 @@
+interface FabricaOvoDePascoa {
+    OvoDePascoa criarOvoDePascoa();
+}

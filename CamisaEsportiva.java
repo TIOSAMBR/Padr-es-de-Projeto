@@ -1,3 +1,1 @@
-interface CamisaEsportiva {
-    void exibirDetalhes();
-}
+

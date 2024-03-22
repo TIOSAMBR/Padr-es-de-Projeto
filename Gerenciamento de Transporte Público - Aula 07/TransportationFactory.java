@@ -1,3 +1,0 @@
-interface TransportFactory {
-    Transport createTransport();
-}

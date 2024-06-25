@@ -1,0 +1,8 @@
+O padrão Adapter permite que adaptemos a interface de uma classe existente (OldVehicleStorage) para outra interface (IVehicleStorage) que o cliente espera utilizar (saveVehicleData). No adaptador (VehicleStorageAdapter), fizemos a conversão dos dados do objeto Vehicle para o formato aceito pela OldVehicleStorage, utilizando o método storeVehicleData.
+
+Desafios Encontrados e Resolução
+Mapeamento de Dados: Um desafio foi garantir que todos os dados relevantes do Vehicle fossem adequadamente mapeados para a string esperada pelo método da biblioteca legada.
+
+Integração de Interfaces: Garantir que o adaptador implementasse corretamente a interface IVehicleStorage e interagisse de forma transparente com a biblioteca legada foi essencial. A solução foi criar um construtor no adaptador para receber uma instância de OldVehicleStorage.
+
+Este projeto mostra como o padrão Adapter pode ser utilizado para integrar sistemas com interfaces incompatíveis, garantindo assim a reutilização de código e a integração de bibliotecas existentes em novos sistemas.

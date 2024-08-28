@@ -1,0 +1,26 @@
+Explicação do Código
+Plataforma: Esta classe representa o sistema de vídeo on-demand. Ela gerencia a lista de usuários inscritos e notifica os usuários quando um novo filme ou série é adicionado. Cada gênero é tratado separadamente, e apenas os usuários inscritos em um gênero específico receberão notificações.
+
+Usuario: A classe Usuario implementa a interface Observer. Cada usuário pode se inscrever em um ou mais gêneros de filmes ou séries e receberá notificações apenas para esses gêneros.
+
+Simulação: No método main, criamos cinco usuários, cada um com preferências diferentes de gêneros. Quando novos filmes ou séries são adicionados, a plataforma notifica apenas os usuários inscritos no gênero correspondente.
+
+Exemplo de Funcionamento
+Usuário 1 (Alice): Inscrito em Ação e Terror.
+Usuário 2 (Bruno): Inscrito em Comédia.
+Usuário 3 (Carla): Inscrito em Terror.
+Usuário 4 (Diego): Inscrito em Anime.
+Usuário 5 (Eva): Inscrito em Ficção Científica.
+
+Simulação:
+Quando "Missão Impossível 7" (Ação) é adicionado, Alice recebe a notificação.
+Quando "Ted Lasso" (Comédia) é adicionado, Bruno recebe a notificação.
+Quando "A Maldição da Casa Hill" (Terror) é adicionado, Alice e Carla recebem a notificação.
+Quando "Naruto Shippuden" (Anime) é adicionado, Diego recebe a notificação.
+Quando "Duna" (Ficção Científica) é adicionado, Eva recebe a notificação.
+
+
+Como utilizar o UML:
+Observer: Define o método atualizar, que será implementado pelos observadores.
+Usuario: Classe concreta que implementa Observer e define a lógica de inscrição por gênero e recebimento de notificações.
+Plataforma: Gerencia os observadores e notifica-os quando um novo conteúdo é adicionado, de acordo com o gênero.
